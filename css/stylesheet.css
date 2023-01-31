@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .heading {
     color: red;
 }
@@ -8,4 +12,19 @@
 
 #London-id{
     background-color: pink;
+}
+
+span{
+    /* padding: 0 5p; */
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: black;
+    border-bottom: 4px solid gray;
+}
+
+.filler-para{
+    border: 10px lightgreen ridge;
+    margin: 5px;
 }
